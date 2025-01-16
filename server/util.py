@@ -43,11 +43,11 @@ def get_data_columns():
     return __data_columns
 
 # sqft (Square Feet), bhk (Bedroom, Hall, Kitchen), bath (Bathroom)
-# 1 lakh = Rp 20.535.000
+# Price in USD
 
 if __name__ == "__main__":
     load_saved_artifacts()
-    print("Note : sqft (Square Feet), bhk (Bedroom, Hall, Kitchen), bath (Bathroom), 1 lakh = Rp 20.535.000")
+    print("Note : sqft (Square Feet), bhk (Bedroom, Hall, Kitchen), bath (Bathroom), Price in USD")
     print(get_location_names())
     print(get_estimated_price('Yelahanka New Town', 1500, 4, 3))
     print(get_estimated_price('1st Phase JP Nagar', 1000, 2, 2))
